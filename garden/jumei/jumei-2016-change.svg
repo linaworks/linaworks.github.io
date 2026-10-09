@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 230" role="img" aria-labelledby="t d" font-family="'Source Sans 3','Segoe UI',system-ui,'PingFang SC','Microsoft YaHei',sans-serif">
+  <title id="t">Jumei, change from 2015 to 2016</title>
+  <desc id="d">Revenue fell 14.5 percent, active customers fell about 4 percent, and orders fell about 16 percent.</desc>
+  <rect width="640" height="230" fill="#F6F3EC"/>
+  <text x="24" y="34" font-size="15" fill="#666A62">Change from 2015 to 2016</text>
+  <!-- scale: 16% = 360px, bars start at x=170 -->
+  <g font-size="16" fill="#2B2F2C">
+    <text x="24" y="78">Revenue</text>
+    <text x="24" y="118">Active customers</text>
+    <text x="24" y="158">Orders</text>
+  </g>
+  <rect x="170" y="62" width="326" height="22" fill="#B9BFB0"/>
+  <rect x="170" y="102" width="84" height="22" fill="#B9BFB0"/>
+  <rect x="170" y="142" width="360" height="22" fill="#4A6648"/>
+  <g font-size="16" fill="#2B2F2C">
+    <text x="506" y="78">−14.5%</text>
+    <text x="264" y="118">≈ −4%</text>
+    <text x="540" y="158" fill="#4A6648" font-weight="500">≈ −16%</text>
+  </g>
+  <line x1="170" y1="52" x2="170" y2="174" stroke="#DDD8CB"/>
+  <text x="24" y="210" font-size="12" fill="#666A62">Year-on-year change · Source: Jumei 2016 Form 20-F</text>
+</svg>
