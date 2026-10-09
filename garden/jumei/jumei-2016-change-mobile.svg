@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 288" role="img" aria-labelledby="title desc">
+<title id="title">Jumei, change from 2015 to 2016</title>
+<desc id="desc">Revenue fell 14.5 percent, active customers fell approximately 4 percent, and orders fell approximately 16 percent.</desc>
+<rect width="360" height="288" fill="#F6F3EC"/>
+<g font-family="'Source Sans 3','Segoe UI',system-ui,sans-serif">
+<text x="12" y="24" font-size="17" fill="#666A62">Change from 2015 to 2016</text>
+<text x="12" y="60" font-size="17" fill="#2B2F2C">Revenue</text><text x="348" y="60" text-anchor="end" font-size="17" fill="#2B2F2C">−14.5%</text>
+<rect x="12" y="71" width="300" height="17" fill="#B9BFB0"/>
+<text x="12" y="118" font-size="17" fill="#2B2F2C">Active customers</text><text x="348" y="118" text-anchor="end" font-size="17" fill="#2B2F2C">≈ −4%</text>
+<rect x="12" y="129" width="83" height="17" fill="#B9BFB0"/>
+<text x="12" y="176" font-size="17" fill="#2B2F2C">Orders</text><text x="348" y="176" text-anchor="end" font-size="17" font-weight="600" fill="#4A6648">≈ −16%</text>
+<rect x="12" y="187" width="330" height="17" fill="#4A6648"/>
+<line x1="12" y1="225" x2="348" y2="225" stroke="#DDD8CB"/>
+<text x="12" y="248" font-size="12" fill="#666A62">Year-on-year change</text>
+<text x="12" y="268" font-size="12" fill="#666A62">Source: Jumei 2016 Form 20-F</text>
+</g></svg>
