@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>关于我 · linaworks</title>
+<meta name="description" content="多了解一点 Lina。">
+<meta property="og:type" content="website">
+<meta property="og:title" content="About · linaworks">
+<meta property="og:description" content="多了解一点 Lina。">
+<link rel="canonical" href="https://linaworks.github.io/zh/about/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500&family=Source+Sans+3:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<style>:root {
+    --bg: #F6F3EC;
+    --ink: #2B2F2C;
+    --muted: #666A62;
+    --green: #4A6648;
+    --tint: #E3E9DA;
+    --line: #DDD8CB;
+    --serif: "Fraunces", Georgia, "Noto Serif SC", "Songti SC", serif;
+    --sans: "Source Sans 3", "Segoe UI", system-ui, -apple-system, "PingFang SC", "Microsoft YaHei", "Noto Sans SC", sans-serif;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font: 400 1.0625rem/1.7 var(--sans);
+  }
+  a { color: inherit; text-decoration-color: var(--line); text-underline-offset: 0.25em; }
+  a:hover { color: var(--green); text-decoration-color: var(--green); }
+  a:focus-visible { outline: 2px solid var(--green); outline-offset: 3px; border-radius: 2px; }
+
+  .wrap { max-width: 56rem; margin: 0 auto; padding: 0 clamp(1.5rem, 5vw, 4rem); }
+
+  header { padding: 2rem 0 0; }
+  header .wrap { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; flex-wrap: wrap; }
+  .mark { display: inline-flex; align-items: center; gap: 0.5rem; font: 400 1.125rem var(--serif); text-decoration: none; }
+  .mark svg { width: 1.25rem; height: 1.25rem; color: var(--green); }
+  nav { display: flex; gap: 1.5rem; font-size: 0.95rem; }
+  nav a { text-decoration: none; color: var(--muted); }
+  nav a:hover, nav a[aria-current] { color: var(--ink); }
+
+  .hero { padding: 6rem 0 4.5rem; }
+  .hero .kicker { color: var(--green); font-size: 0.95rem; margin: 0 0 1.25rem; }
+  h1 {
+    font: 400 clamp(2.25rem, 7vw, 3.5rem)/1.12 var(--serif);
+    letter-spacing: -0.02em;
+    margin: 0 0 1.75rem;
+  }
+  h1 span { display: block; }
+  h1 { margin-bottom: 1rem; }
+  .hero p.line { font: 400 clamp(1.15rem, 3.5vw, 1.4rem)/1.4 var(--serif); color: var(--green); margin: 0 0 1.75rem; }
+  .hero p { max-width: 32rem; margin: 0 0 0.5rem; color: var(--ink); }
+  .hero p.soft { color: var(--muted); }
+  .hero .go { display: inline-block; margin-top: 1.5rem; color: var(--green); text-decoration-color: var(--green); }
+
+  h2 { font: 400 1.5rem/1.3 var(--serif); margin: 0 0 0.35rem; }
+  .sub { color: var(--muted); font-size: 0.95rem; margin: 0 0 1.75rem; }
+
+  .garden { padding: 3rem 0; border-top: 1px solid var(--line); }
+  .notes { list-style: none; margin: 0; padding: 0; }
+  .notes li { border-top: 1px solid var(--line); }
+  .notes li:last-child { border-bottom: 1px solid var(--line); }
+  .notes a {
+    display: grid;
+    grid-template-columns: 1.5rem 1fr auto;
+    gap: 0.9rem;
+    align-items: baseline;
+    padding: 0.9rem 0;
+    text-decoration: none;
+  }
+  .notes svg { width: 1.1rem; height: 1.1rem; color: var(--green); align-self: center; }
+  .notes .title { font-family: var(--serif); font-size: 1.1rem; }
+  .notes .meta { color: var(--muted); font-size: 0.85rem; text-align: right; }
+  .notes a:hover .title { color: var(--green); }
+
+  .legend { display: flex; flex-wrap: wrap; gap: 0.5rem 1.5rem; margin: 1.25rem 0 0; padding: 0; list-style: none; color: var(--muted); font-size: 0.875rem; }
+  .legend li { display: inline-flex; align-items: center; gap: 0.4rem; }
+  .legend svg { width: 1rem; height: 1rem; color: var(--green); }
+  .more { margin: 1.25rem 0 0; font-size: 0.95rem; }
+
+  .doors { padding: 3rem 0 4rem; border-top: 1px solid var(--line); }
+  .doors dl { margin: 0; display: grid; gap: 1.5rem; }
+  .doors dt { font: 400 1.2rem var(--serif); }
+  .doors dt a { text-decoration: none; }
+  .doors dd { margin: 0.1rem 0 0; color: var(--muted); }
+
+  footer { padding: 2rem 0 3rem; border-top: 1px solid var(--line); color: var(--muted); font-size: 0.875rem; }
+  footer .wrap { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 0.5rem 1.5rem; }
+
+  @media (max-width: 30rem) {
+    .hero { padding: 4rem 0 3rem; }
+    .notes a { grid-template-columns: 1.5rem 1fr; }
+    .notes .meta { grid-column: 2; text-align: left; margin-top: -0.4rem; }
+  }
+
+  .page { padding: 4.5rem 0 4rem; }
+  .page h1 { font-size: clamp(2rem, 6vw, 2.75rem); margin-bottom: 1rem; }
+  .page .lede { color: var(--muted); max-width: 32rem; margin: 0 0 2.5rem; }
+  .page p { max-width: 34rem; }
+  .empty { border: 1px dashed var(--line); border-radius: 6px; padding: 1.5rem; color: var(--muted); max-width: 34rem; }
+  .empty p { margin: 0; }
+
+  /* look matched to the reference screenshot */
+  .hero h1 span:nth-child(2) { color: var(--green); }
+  .hero p.line { font: italic 400 clamp(1.15rem, 3.5vw, 1.4rem)/1.4 var(--serif); color: var(--muted); }
+  .notes a { grid-template-columns: 1.5rem 1fr auto; align-items: center; }
+  .notes .text { display: block; }
+  .notes .title { display: block; }
+  .notes .meta { display: block; text-align: left; font-size: 0.85rem; color: var(--muted); }
+  .notes .arrow { color: var(--muted); }
+  .doors dl { grid-template-columns: 1fr 1fr; gap: 1.5rem 2rem; }
+  @media (max-width: 30rem) {
+    .notes a { grid-template-columns: 1.5rem 1fr auto; }
+    .notes .meta { grid-column: auto; margin-top: 0; }
+    .doors dl { grid-template-columns: 1fr; }
+  }
+</style>
+<link rel="alternate" hreflang="en" href="https://linaworks.github.io/about/">
+<link rel="alternate" hreflang="zh-CN" href="https://linaworks.github.io/zh/about/">
+<link rel="alternate" hreflang="x-default" href="https://linaworks.github.io/about/">
+<link rel="stylesheet" href="/assets/bilingual.css">
+<meta property="og:url" content="https://linaworks.github.io/zh/about/">
+<meta property="og:locale" content="zh_CN">
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="seed" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M12 20v-4"/><ellipse cx="12" cy="11.5" rx="3" ry="4.2"/>
+  </symbol>
+  <symbol id="sprout" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M12 21V11"/><path d="M12 12c0-3.5-2.5-5.5-6-5.5 0 3.5 2.5 5.5 6 5.5z"/><path d="M12 10c0-3 2.2-5 5.5-5 0 3-2.2 5-5.5 5z"/>
+  </symbol>
+  <symbol id="tree" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M12 21v-6"/><path d="M12 15c-4 0-6.5-2.8-6.5-6.2C5.5 5.4 8.3 3 12 3s6.5 2.4 6.5 5.8c0 3.4-2.5 6.2-6.5 6.2z"/>
+  </symbol>
+</svg>
+<header>
+  <div class="wrap">
+    <a class="mark" href="/zh/"><svg aria-hidden="true"><use href="#sprout"/></svg>linaworks</a>
+    <nav aria-label="主导航"><a href="/zh/garden/">花园</a><a href="/zh/writing/">文章</a><a href="/zh/projects/">项目</a><a href="/zh/about/" aria-current="page">关于我</a></nav>
+<div class="language-switch" role="navigation" aria-label="语言切换"><a href="/zh/about/" lang="zh-CN" hreflang="zh-CN" aria-current="page">中文</a><span aria-hidden="true">/</span><a href="/about/" lang="en" hreflang="en">EN</a></div>
+  </div>
+</header>
+<main class="page">
+  <div class="wrap">
+    <h1>关于我</h1>
+    <p class="lede">你好，我是 Lina。</p>
+    <p>我读的是翻译硕士，工作却一路走过项目管理、采购和海外营销。现在，我从事海外数字营销。</p>
+    <p>最近，我在尝试用 AI 让工作轻松一点，也让日常生活顺手一点。这个网站就是其中一个实验。我想在这里记些东西，追着问题想一想，也看看自己能做出什么。</p>
+    <p>工作之外，我喜欢单口喜剧，最近在看 Gianmarco Soresi。</p>
+  </div>
+</main>
+<footer>
+  <div class="wrap">
+    <span>© 2026 Lina</span>
+    <span>最近照料于 2026 年 10 月</span>
+  </div>
+</footer>
+</body>
+</html>
